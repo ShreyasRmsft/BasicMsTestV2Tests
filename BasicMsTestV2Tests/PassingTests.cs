@@ -4,10 +4,20 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace BasicMsTestV2Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class PassingTests
     {
         [TestMethod]
         public void TestMethod1()
+        {
+        }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+        }
+
+        [TestMethod]
+        public void TestMethod3()
         {
         }
     }
