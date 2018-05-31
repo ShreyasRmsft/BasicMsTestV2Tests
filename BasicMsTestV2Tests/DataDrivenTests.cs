@@ -9,21 +9,21 @@ namespace BasicMsTestV2Tests
         [TestMethod]
         [DataRow(1)]
         [DataRow(2)]
-        public void TestMethod1()
+        public void TestMethod1(int a)
         {
         }
 
         [TestMethod]
         [DataRow(1)]
         [DataRow(2)]
-        public void TestMethod2()
+        public void TestMethod2(int a)
         {
         }
 
         [TestMethod]
         [DataRow(1)]
         [DataRow(2)]
-        public void TestMethod3()
+        public void TestMethod3(int a)
         {
         }
     }
