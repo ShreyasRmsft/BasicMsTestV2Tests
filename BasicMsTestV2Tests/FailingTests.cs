@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace BasicMsTestV2Tests
@@ -21,7 +21,7 @@ namespace BasicMsTestV2Tests
         [TestMethod]
         public void TestMethod3()
         {
-            Assert.Fail();
+            Assert.AreEqual('a', Environment.GetEnvironmentVariable("VSTEST.TESTRUNID"));
         }
     }
 }
