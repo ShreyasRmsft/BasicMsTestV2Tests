@@ -9,6 +9,7 @@ namespace BasicMsTestV2Tests
         [TestMethod]
         public void TestMethod1()
         {
+            System.Threading.Thread.Sleep(99999999);
         }
 
         [TestMethod]
