@@ -1,0 +1,16 @@
+<RunSettings>
+    <LoggerRunSettings>
+        <Loggers>
+            <Logger friendlyName="blame" enabled="True" />
+        </Loggers>
+    </LoggerRunSettings>
+    <DataCollectionRunSettings>
+        <DataCollectors>
+            <DataCollector friendlyName="blame" enabled="True">
+                <Configuration>
+                    <CollectDump CollectDumpOnTestSessionHang="true" DumpType="mini" ExpectedExecutionTimeOfLongestRunningTestInMinutes="1"/>
+                </Configuration>
+            </DataCollector>
+        </DataCollectors>
+    </DataCollectionRunSettings>
+</RunSettings>
