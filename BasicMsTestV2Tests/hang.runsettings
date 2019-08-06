@@ -9,7 +9,7 @@
             <DataCollector friendlyName="blame" enabled="True">
                 <Configuration>
                     <CollectDump DumpType="mini" />
-                    <CollectDumpOnTestSessionHang TestTimeout="60000" />
+                    <CollectDumpOnTestSessionHang TestTimeout="30000" />
                 </Configuration>
             </DataCollector>
         </DataCollectors>
