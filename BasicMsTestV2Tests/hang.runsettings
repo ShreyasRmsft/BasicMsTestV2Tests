@@ -8,7 +8,8 @@
         <DataCollectors>
             <DataCollector friendlyName="blame" enabled="True">
                 <Configuration>
-                    <CollectDump CollectDumpOnTestSessionHang="true" DumpType="mini" ExpectedExecutionTimeOfLongestRunningTestInMinutes="1"/>
+                    <CollectDump DumpType="mini" />
+                    <CollectDumpOnTestSessionHang TestTimeout="60000" />
                 </Configuration>
             </DataCollector>
         </DataCollectors>
