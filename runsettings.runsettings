@@ -25,10 +25,10 @@
     </DataCollectors>
   </DataCollectionRunSettings>
 
-  <MsTest>
+  <MSTest>
     <SettingsFile>Local.testsettings</SettingsFile>
     <ForcedLegacyMode>true</ForcedLegacyMode>
-  </MsTest>
+  <MSTest>
   
   <!-- Adapter Specific sections -->
 </RunSettings>
