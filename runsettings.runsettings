@@ -25,5 +25,9 @@
     </DataCollectors>
   </DataCollectionRunSettings>
 
+  <MsTest>
+    <SettingsFile>Local.testsettings</SettingsFile>
+  </MsTest>
+  
   <!-- Adapter Specific sections -->
 </RunSettings>
