@@ -27,6 +27,7 @@
 
   <MsTest>
     <SettingsFile>Local.testsettings</SettingsFile>
+    <ForcedLegacyMode>true</ForcedLegacyMode>
   </MsTest>
   
   <!-- Adapter Specific sections -->
