@@ -28,7 +28,7 @@
   <MSTest>
     <SettingsFile>Local.testsettings</SettingsFile>
     <ForcedLegacyMode>true</ForcedLegacyMode>
-  </MSTest>
+  <MSTest>
   
   <!-- Adapter Specific sections -->
 </RunSettings>
