@@ -7,12 +7,14 @@ namespace BasicMsTestV2Tests
     public class FailingTests
     {
         [TestMethod]
+        [Owner("shrer")]
         public void TestMethod1()
         {
             Assert.Fail();
         }
 
         [TestMethod]
+        [Owner("shrer")]
         public void TestMethod2()
         {
             Assert.Fail();
