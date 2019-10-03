@@ -4,7 +4,7 @@
             <DataCollector friendlyName="blame" enabled="True">
                 <Configuration>
                     <CollectDumpOnTestSessionHang TestTimeout="2000" DumpType="mini" />
-                    
+                    <ResultsDirectory>D:\a\_temp\TestResults</ResultsDirectory>
                 </Configuration>
             </DataCollector>
         </DataCollectors>
