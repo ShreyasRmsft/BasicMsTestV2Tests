@@ -1,15 +1,10 @@
 <RunSettings>
-    <LoggerRunSettings>
-        <Loggers>
-            <Logger friendlyName="blame" enabled="True" />
-        </Loggers>
-    </LoggerRunSettings>
     <DataCollectionRunSettings>
         <DataCollectors>
             <DataCollector friendlyName="blame" enabled="True">
                 <Configuration>
-                    <CollectDump DumpType="mini" />
-                    <CollectDumpOnTestSessionHang TestTimeout="30000" DumpType="mini" />
+                    <CollectDumpOnTestSessionHang TestTimeout="600000" DumpType="mini" />
+                    <ResultsDirectory>HangDump</ResultsDirectory>
                 </Configuration>
             </DataCollector>
         </DataCollectors>
