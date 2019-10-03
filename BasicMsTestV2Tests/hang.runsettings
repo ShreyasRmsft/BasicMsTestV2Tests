@@ -3,7 +3,7 @@
         <DataCollectors>
             <DataCollector friendlyName="blame" enabled="True">
                 <Configuration>
-                    <CollectDumpOnTestSessionHang TestTimeout="600000" DumpType="mini" />
+                    <CollectDumpOnTestSessionHang TestTimeout="2000" DumpType="mini" />
                     <ResultsDirectory>HangDump</ResultsDirectory>
                 </Configuration>
             </DataCollector>
