@@ -6,11 +6,13 @@ namespace BasicMsTestV2Tests
     [TestClass]
     public class FailingTests
     {
+        public TestContext TestContext { get; set; }
+        
         [TestMethod]
         [Owner("shrer")]
         public void TestMethod1()
         {
-            Assert.Fail();
+            Assert.Fail(TestContext.Properties["password"].ToString());
         }
 
         [TestMethod]
